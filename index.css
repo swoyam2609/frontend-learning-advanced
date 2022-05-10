@@ -411,14 +411,17 @@ div.reviewid {
     flex-direction: row;
 }
 
-div.customerflex{
+div.customerflex {
     height: fit-content;
     width: fit-content;
     margin: auto;
     flex-wrap: wrap;
+    margin-bottom: 160px;
 }
 
-div.review>img, div.review>p, div.review>div {
+div.review>img,
+div.review>p,
+div.review>div {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -454,18 +457,18 @@ p.review {
 }
 
 
-div.reviewid{
+div.reviewid {
     height: fit-content;
     align-items: baseline;
 }
 
 
-div.reviewid>img{
+div.reviewid>img {
     width: 18%;
     height: 18%;
 }
 
-div.reviewdetails>p{
+div.reviewdetails>p {
     margin-top: 5px;
 }
 
@@ -474,15 +477,78 @@ img.khushi {
     bottom: 5px;
     width: 10%;
 }
-p.khushiname, p.khushigraphic {
+
+p.khushiname,
+p.khushigraphic {
+    position: relative;
     margin: 0;
     margin-left: 28%;
 }
 
-p.khushigraphic{
+p.khushigraphic {
     margin-bottom: 7%;
 }
 
-p.khushiname{
+p.khushiname {
     font-family: poppins-bold;
+}
+
+/* Footer */
+
+div.footer {
+    width: 100%;
+    background-color: #1c1c1c;
+    padding: 0;
+}
+
+div.collaboration {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    position: relative;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    top: -50px;
+
+    background: #FFB742;
+    border-radius: 15px;
+}
+
+div.dothis {
+    position: relative;
+    width: 185px;
+    height: 42px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    color: #1c1c1c;
+    border: 2px solid #1c1c1c;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+}
+
+div.dothis>p {
+    font-size: 18px;
+    font-family: poppins-bold;
+    margin: auto;
+    padding: 8px;
+}
+
+p.project {
+    margin: auto;
+    margin-left: 3%;
+    font-family: poppins-extrabold;
+    font-size: 35px;
+    width: 34%;
+}
+
+p.projectdetails {
+    width: 55%;
+    margin: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16px;
+    font-family: poppins-light;
 }
