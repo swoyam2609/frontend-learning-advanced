@@ -2,29 +2,78 @@
     font-family: poppins;
     src: url(/Assets/Poppins/Poppins-Light.ttf);
 }
+@font-face {
+    font-family: poppins-bold;
+    src: url(/Assets/Poppins/Poppins-Bold.ttf);
+}
+
 * {
     font-family: poppins;
     transition: all .8s ease;
 }
+
 body {
     background: #212529;
+    margin: 0;
 }
-ul{
+div.navbar {
+    width: auto;
+    height: 60px;
+    position: relative;
+}
+ul {
     text-align: center;
+    
 }
+
 li {
     display: inline-block;
     padding: 0;
-    
+    margin: 0;
+    top: 4px;
+    position: relative;
+    margin-top: 8px;
 }
-a:hover {
-    transition: all .5s ease;
+
+img.logo {
+    position: absolute;
+    height: 60px;
+    margin-top: 0;
+    top: 0px;
+    left: 10px;
+}
+
+button.logo {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 121px;
+    height: 40px;
+    right: 10px;
+    top: 0px;
+    background: #bd7a0f;
+    border: 2px solid #FFB742;
+    border-radius: 50px;
+    margin: 10px;
+}
+button>p {
+    font-family: poppins-bold;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+li>a:hover {
+    transition: all .8s ease;
     background-color: whitesmoke;
     color: #212529;
 }
-a{
+
+a {
     text-decoration: none;
     padding: 12px;
     color: aliceblue;
     font-size: 22px;
+    margin: 0;
 }
