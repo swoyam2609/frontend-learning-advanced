@@ -510,7 +510,7 @@ div.collaboration {
     height: 100px;
     margin: auto;
     top: -50px;
-
+    box-shadow: 10px 10px 10px 5px rgba(255, 169, 29, 0.12);
     background: #FFB742;
     border-radius: 15px;
 }
