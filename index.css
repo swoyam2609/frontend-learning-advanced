@@ -53,7 +53,8 @@ div.navbar {
 
 ul.navbar {
     text-align: center;
-    padding-left: 0;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 li {
