@@ -1,0 +1,30 @@
+@font-face {
+    font-family: poppins;
+    src: url(/Assets/Poppins/Poppins-Light.ttf);
+}
+* {
+    font-family: poppins;
+    transition: all .8s ease;
+}
+body {
+    background: #212529;
+}
+ul{
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 0;
+    
+}
+a:hover {
+    transition: all .5s ease;
+    background-color: whitesmoke;
+    color: #212529;
+}
+a{
+    text-decoration: none;
+    padding: 12px;
+    color: aliceblue;
+    font-size: 22px;
+}
