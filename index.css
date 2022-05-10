@@ -1,11 +1,33 @@
+/* Loading all the custom Fonts */
+
 @font-face {
     font-family: poppins;
     src: url(/Assets/Poppins/Poppins-Light.ttf);
 }
+
 @font-face {
     font-family: poppins-bold;
     src: url(/Assets/Poppins/Poppins-Bold.ttf);
 }
+
+@font-face {
+    font-family: poppins-extrabold;
+    src: url(/Assets/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url(/Assets/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppins-extralight;
+    src: url(/Assets/Poppins/Poppins-ExtraLight.ttf);
+}
+
+
+/* Loading default font and background */
+
 
 * {
     font-family: poppins;
@@ -16,14 +38,21 @@ body {
     background: #212529;
     margin: 0;
 }
+
+/* Creating the Nav Bar */
+
+
 div.navbar {
     width: auto;
     height: 60px;
     position: relative;
+    margin: auto;
+    margin-bottom: 15px;
 }
+
 ul {
     text-align: center;
-    
+
 }
 
 li {
@@ -59,15 +88,18 @@ button.logo {
     border-radius: 50px;
     margin: 10px;
 }
+
 button>p {
     font-family: poppins-bold;
     letter-spacing: 1px;
     color: aliceblue;
 }
+
 li>a:hover {
     transition: all .8s ease;
     background-color: whitesmoke;
     color: #212529;
+    border-radius: 15px;
 }
 
 a {
@@ -76,4 +108,68 @@ a {
     color: aliceblue;
     font-size: 22px;
     margin: 0;
+    border-radius: 15px;
+}
+
+/* Creating the hello box */
+
+div.hello {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    top: 30px;
+
+    background: #373B3F;;
+    box-shadow: 10px 10px 10px 5px rgba(59, 59, 59, 0.568);
+    border-radius: 20px;
+}
+
+p.hello {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px;
+}
+
+p.name {
+    font-family: poppins-bold;
+    color: antiquewhite;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+
+span {
+    font-family: poppins-bold;
+    color: #FFB742;
+    text-decoration: underline;
+}
+
+p>span:hover{
+    transform: scale(1.2);
+    font-size: 38px;
+    transition: all 0.8s ease;
+}
+
+p.domain {
+    font-family: poppins-bold;
+    color: antiquewhite;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: 48px;
+}
+
+p.work {
+    font-family: poppins-light;
+    color: #FFB742;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+img.hello {
+    margin-bottom: 30px;
 }
