@@ -37,6 +37,7 @@
 body {
     background: #212529;
     margin: 0;
+    height: 4809px;
 }
 
 /* Creating the Nav Bar */
@@ -50,9 +51,9 @@ div.navbar {
     margin-bottom: 15px;
 }
 
-ul {
+ul.navbar {
     text-align: center;
-
+    padding-left: 0;
 }
 
 li {
@@ -79,7 +80,7 @@ button.logo {
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 121px;
+    width: 80px;
     height: 40px;
     right: 10px;
     top: 0px;
@@ -119,17 +120,20 @@ div.hello {
     height: fit-content;
     text-align: center;
     margin: auto;
-    top: 30px;
+    top: 10px;
 
-    background: #373B3F;;
+    background: #373B3F;
+    ;
     box-shadow: 10px 10px 10px 5px rgba(59, 59, 59, 0.568);
     border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 p.hello {
     position: relative;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin: 0px;
 }
 
@@ -148,7 +152,7 @@ span {
     text-decoration: underline;
 }
 
-p>span:hover{
+p>span:hover {
     transform: scale(1.2);
     font-size: 38px;
     transition: all 0.8s ease;
@@ -172,4 +176,134 @@ p.work {
 
 img.hello {
     margin-bottom: 30px;
+}
+
+
+
+
+/* Experience, Projects, Clients */
+div.flex {
+    flex-shrink: 1;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.exp {
+    flex-shrink: inherit;
+    margin: 10px;
+    width: 420px;
+    background: #373B3F;
+    box-shadow: 10px 10px 10px 5px rgba(59, 59, 59, 0.568);
+    border-radius: 20px;
+}
+
+img.exp {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p.exp {
+    margin: 0;
+}
+
+p.num {
+    font-family: poppins-bold;
+    font-size: 32px;
+    color: #FFB742;
+}
+
+p.client {
+    font-family: poppins-light;
+    font-size: 16px;
+    color: white;
+}
+
+ul.exp {
+    padding: 0;
+}
+
+li.exp {
+    margin: auto;
+}
+
+
+/* about me */
+
+
+
+div.about {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    max-width: 85%;
+    background: #373B3F;
+    box-shadow: 10px 10px 10px 5px rgba(59, 59, 59, 0.568);
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+div.column {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div.whoami {
+    position: relative;
+    width: 148px;
+    height: 42px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+}
+
+button.about {
+    position: relative;
+    width: 147.57px;
+    height: 54px;
+
+    background: #FFB742;
+    border-radius: 50px;
+}
+
+div.hireme {
+    position: relative;
+    width: 148px;
+    height: 42px;
+    text-align: center;
+    background: #FFB742;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+div.hireme>p, div.whoami>p {
+    color: antiquewhite;
+    font-size: 18px;
+    font-family: poppins-bold;
+    margin: auto;
+    margin-top: 8px;
+}
+
+#aboutme {
+    padding-right: 30px;
+    margin: 0;
+    color: aliceblue;
+    font-family: poppins-light;
+}
+
+#aboutmeheading {
+    font-family: poppins-bold;
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    margin-top: 10px;
 }
