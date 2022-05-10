@@ -37,7 +37,7 @@
 body {
     background: #212529;
     margin: 0;
-    height: 4809px;
+    height: fit-content;
 }
 
 /* Creating the Nav Bar */
@@ -319,7 +319,7 @@ div.hireme>p {
     margin-top: 10px;
 }
 
-p>a{
+p>a {
     color: antiquewhite;
     font-size: 18px;
     font-family: poppins-bold;
@@ -365,7 +365,124 @@ div.skill3 {
     margin: auto;
 }
 
-div.skill3>img:hover{
+div.skill3>img:hover {
     transform: scale(1.5);
     transition: all .5s ease-in-out;
+}
+
+
+/* What Customer Says */
+
+div.testimonials {
+    position: relative;
+    width: 170px;
+    height: 42px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    margin: auto;
+}
+
+div.testimonials>p {
+    color: #FFB742;
+    font-size: 18px;
+    font-family: poppins-bold;
+    margin: auto;
+    padding: 8px;
+}
+
+p.customer {
+    position: relative;
+    margin: auto;
+    font-family: poppins-bold;
+    color: white;
+    font-size: 39px;
+}
+
+div.customer {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 55px;
+}
+
+div.customerflex,
+div.reviewid {
+    display: flex;
+    flex-direction: row;
+}
+
+div.customerflex{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+div.review>img, div.review>p, div.review>div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.review,
+div.reviewdetails {
+    display: flex;
+    flex-direction: column;
+}
+
+div.review {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 378.91px;
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border-radius: 7.92699px;
+    box-shadow: 10px 10px 10px 5px rgba(126, 126, 126, 0.568);
+}
+
+div.review>img {
+    width: 25%;
+    margin-top: 70px;
+}
+
+p.review {
+    font-family: poppins-light;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+div.reviewid{
+    height: fit-content;
+    align-items: baseline;
+}
+
+
+div.reviewid>img{
+    width: 18%;
+    height: 18%;
+}
+
+div.reviewdetails>p{
+    margin-top: 5px;
+}
+
+img.khushi {
+    position: absolute;
+    bottom: 5px;
+    width: 10%;
+}
+p.khushiname, p.khushigraphic {
+    margin: 0;
+    margin-left: 28%;
+}
+
+p.khushigraphic{
+    margin-bottom: 7%;
+}
+
+p.khushiname{
+    font-family: poppins-bold;
 }
