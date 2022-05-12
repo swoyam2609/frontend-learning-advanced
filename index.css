@@ -722,6 +722,7 @@ div.myworksgrid>img:hover {
 
 div.myworksgrid>img{
     border-radius: 15px;
+    border: 3px solid white;
 }
 
 .item1 {
